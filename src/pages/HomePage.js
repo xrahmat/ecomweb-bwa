@@ -8,10 +8,10 @@ import Clients from '../parts/Clients';
 import Sitemap from '../parts/Sitemap';
 import Footer from '../parts/Footer';
 
-function HomePage(props) {
+function HomePage() {
   return (
     <>
-      <Header />
+      <Header theme='white' position='absolute' />
       <Hero />
       <BrowseRoom />
       <JustArrived />

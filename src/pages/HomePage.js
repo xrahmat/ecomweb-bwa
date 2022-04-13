@@ -16,7 +16,7 @@ function HomePage() {
       <BrowseRoom />
       <JustArrived />
       <Clients />
-      <Sitemap />
+      <Sitemap loc='home' />
       <Footer />
     </>
   );

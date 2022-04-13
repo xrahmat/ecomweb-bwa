@@ -44,7 +44,7 @@ function Hero() {
             ></button>
           </div>
           <img
-            src='images/content/image-section-1.png'
+            src='./images/content/image-section-1.png'
             alt='hero 1'
             className='absolute inset-0 md:relative w-full h-full object-cover object-center'
           />

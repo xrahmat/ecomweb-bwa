@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Sitemap() {
+function Sitemap({ loc }) {
   return (
-    <section className=''>
-      <div className='border-t border-b border-gray-200 py-12 mt-16 px-4'>
+    <section className='sitemap'>
+      <div
+        className={[
+          'border-gray-200 py-12 mt-16 px-4',
+          loc === 'home' ? 'border-t border-b' : 'border-b',
+        ].join(' ')}
+      >
         <div className='flex justify-center mb-8'>
           <img
             src='/images/content/logo.png'

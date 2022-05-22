@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import useAsync from "../../helpers/hooks/useAsync"
 import fetch from "../../helpers/fetch"
 
@@ -55,7 +54,7 @@ function Loading({ ratio = {} }) {
 }
 
 function BrowseRoom() {
-  const { data, status, error, run, isLoading } = useAsync({ data: { username: "" } })
+  const { data, status, error, run, isLoading } = useAsync()
 
   useEffect(() => {
     run(
